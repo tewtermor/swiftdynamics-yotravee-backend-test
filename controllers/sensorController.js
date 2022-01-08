@@ -48,7 +48,7 @@ exports.average = function () {
     }
 }
 
-exports.devideSensorData = function () {
+exports.divideSensorData = function () {
     return function (req, res, next) {
         // Get data at the time
         apis.getData().then(res => {

@@ -46,7 +46,7 @@ exports.approveWork = function () {
 
         var mailOptions = {
           from: 'dev.yotravee@gmail.com',
-          to: 'tewtermor@gmail.com', // napat.s@swiftdynamics.co.th
+          to: 'napat.s@swiftdynamics.co.th', // napat.s@swiftdynamics.co.th
           subject: '[NOTIFICATION] Work Approvement',
           text: `Work ID ${works.works[0].id} is approved by 3 users.`
         };

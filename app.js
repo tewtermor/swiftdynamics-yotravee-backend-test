@@ -39,7 +39,7 @@ app.listen(port, '0.0.0.0', function () {
 const swaggerUI = require('swagger-ui-express')
 const swaggerDocs = require('./swaggerOutput.json')
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocs))
-console.log(`API document is running at: localhost:${port}/doc`);
+console.log(`API document is running at: http://localhost:${port}/doc`);
 
 // Services
 var sensor = require('./routes/sensor')

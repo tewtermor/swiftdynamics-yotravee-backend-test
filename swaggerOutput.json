@@ -44,7 +44,7 @@
         }
       }
     },
-    "/devide-predict": {
+    "/divide-predict": {
       "get": {
         "description": "",
         "parameters": [],

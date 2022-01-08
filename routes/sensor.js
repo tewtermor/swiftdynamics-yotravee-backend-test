@@ -32,8 +32,8 @@ router.get('/avg',
     }
 )
 
-router.get('/devide-predict',
-    sensorController.devideSensorData(),
+router.get('/divide-predict',
+    sensorController.divideSensorData(),
     sensorController.predictData(),
     function (req, res) {
         res.status(200).json({
